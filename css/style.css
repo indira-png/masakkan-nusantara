@@ -1,0 +1,150 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+.nav{
+    color: rgb(7, 0, 0);
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f1da09;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.nav a{
+    color: rgb(250, 244, 244);
+}
+  
+.nav li{ 
+    padding: 5px;
+}
+
+.nav li:hover{
+    background-color:rgb(51, 105, 186);
+}
+
+
+.Data-list{
+    
+    margin-left: 40%;
+}
+
+.Data-list li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.ResepMasakanNusantara:hover .fa-chevron-down{
+    transform: rotate(-180deg);
+    transition: 1s;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.list{
+    display: none;
+    border: 1px solid orange;
+    background-color: #333;
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.list li{
+    display: block;
+    margin-bottom: 10px;
+    color: whitesmoke;
+ }
+
+.Data-list a{
+    text-decoration: none;
+}
+
+.ResepMasakanNusantara:hover .list {
+    display: block;
+
+}
+
+/* header=============== */
+
+.header{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.des-header{
+    
+    width: 45%;
+    margin: auto;
+}
+.des-header h1{
+    font-weight: 700;
+    font-size: 6rem;
+    width: 50%;
+}
+
+.gambar{
+    width: 40%;
+    height: 100vh;
+}
+
+.gambar img{
+    width: 100%;
+    height: 100%;
+}
+
+/* bg card===========*/
+.bg-card{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.card{
+    
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    margin: left 25px;
+    margin-bottom: 55px;
+}
+.card:hover{
+    box-shadow: 0px 0px 10px rgb(250, 172, 28);
+    transition: 300ms;
+}
+
+.gambar-card{
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+}
+.gambar-card img{
+    width: 100%;
+    height: 100%;
+}
+.des-card{
+    padding: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+} 
+
+.bg-card a{
+    text-decoration: none;
+}
+
+.card:hover img{
+    transform: scale(1.5);
+    transition: 2s;
+}
+
+
+
